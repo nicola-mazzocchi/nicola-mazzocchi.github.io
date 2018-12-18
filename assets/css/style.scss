@@ -18,3 +18,19 @@
 	padding-bottom: 10px;
 	color: #000000;
 }
+
+.column {
+  padding: 10px;
+  display: inline-block;
+}
+
+.row {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
