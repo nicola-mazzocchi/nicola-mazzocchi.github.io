@@ -39,8 +39,9 @@
 .box {
   border: 1px solid #ddd; /* Gray border */
   border-radius: 4px;  /* Rounded border */
-  padding: 2px; /* Some padding */
+  padding: 10px; /* Some padding */
   width: 250px; /* Set a small width */
+  float: left;
 }
 
 .box:hover {
