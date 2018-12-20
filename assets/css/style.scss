@@ -39,7 +39,7 @@
 .box {
   border: 1px solid #ddd; /* Gray border */
   border-radius: 4px;  /* Rounded border */
-  padding: 20px; /* Some padding */
+  padding: 2px; /* Some padding */
   width: 250px; /* Set a small width */
 }
 
@@ -55,4 +55,9 @@
 .gallery::after {
 	content: "";
 	clear: both;
+	display: table;
+}
+
+.gallery {
+	display: inline-block;
 }
